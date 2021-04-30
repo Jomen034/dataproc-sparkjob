@@ -28,6 +28,7 @@ To be able to work with this repo, do the following steps:
   * delete the cluster
  
 If all is going well, you will see this output:
+
 **The bash script executed well**
 
 ![image](https://user-images.githubusercontent.com/71366136/116690946-56de9f00-a9e4-11eb-92f0-d689acd94b07.png)
