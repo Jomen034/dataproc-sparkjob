@@ -21,7 +21,7 @@ for i in range(len(files)):
     file_name = os.path.basename(files[i])
     for file_name in files_name:
         for flight in flights:
-            df = pd.read_json(file_name, lines=True)
+            df = pd.read_json("dataset/" + file_name, lines=True)
             df['flight_date'] = flight
             df_temp1 = df.groupby(['destination_airport']).agg({
             'id': ['count']
