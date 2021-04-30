@@ -35,6 +35,19 @@ Clone this repository
 git clone https://github.com/Jomen034/dataproc-sparkjob.git
 ```
 
+## Prerequisite
+Make sure you have python version 3 installed on your machine
+```
+>python --version
+Python 3.8.5
+```
+
+Install the `requirements.txt`
+```
+pip install -r requirements.txt
+```
+
+## GCP and Gcloud SDK 
 To be able to work with this repo, do the following steps:
 1. Create free trial [GCP](https://cloud.google.com/) account
 2. Enable the **Cloud Dataproc APIs**
