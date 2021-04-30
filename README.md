@@ -58,11 +58,15 @@ If all is going well, you will see this output:
 
 **The bash script executed well**
 
-![image](https://user-images.githubusercontent.com/71366136/116690946-56de9f00-a9e4-11eb-92f0-d689acd94b07.png)
+![image](https://user-images.githubusercontent.com/71366136/116719611-75a15d80-aa05-11eb-9ba1-af4f8be54eaa.png)
 
-**Check your bigquery table**
+If running well, then the cluster will be deleted. And it will ask you to continue deleting the cluster or not. 
+
+
+**And now, go to the GCP console and check your bigquery table**
 
 ![image](https://user-images.githubusercontent.com/71366136/116691063-7ece0280-a9e4-11eb-80e7-5434ffcc2137.png)
+
 
 # Conclusion
 * with **sparkjob**, the jobs are being processed with parallel processing to save more time 
